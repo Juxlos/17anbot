@@ -1,0 +1,96 @@
+{
+  "scenario_names": {
+    "Sumatra": [
+      "Bukittinggi, garis terakhir bumi Andalas",
+      "Padang, turun ke pantai",
+      "Bengkulu, berputar ke selatan",
+      "Lampung, serangan hutan",
+      "Palembang, kejayaan Sriwijaya kuno",
+      "Pekanbaru, penyeberangan Sungai Kampar",
+      "Medan, kebangkitan Republik"
+    ],
+    "Jawa": [
+      "Serangan Umum di Yogyakarta",
+      "Cilacap, melihat ke barat",
+      "Cirebon (I), pertempuran di lembah",
+      "Cirebon (II), membelah lawan",
+      "Semarang, lunasnya hutang Mataram",
+      "Surabaya kembali",
+      "Bandung Lautan Api"
+    ],
+    "Kalimantan": [
+      "Putussibau, negeri Dayak",
+      "Menyusur Kapuas hingga Pontianak",
+      "Pantai Karimata",
+      "Sampit, terkepung",
+      "Persiapan di Banjarmasin",
+      "Tarakan dan terobosan tak terduga",
+      "Balikpapan, negeri emas hitam"
+    ],
+    "Sulawesi": [
+      "Kupang dan para orang asing",
+      "Mataram, puputan dari seberang laut",
+      "Selayar, Angkatan Laut Republik",
+      "Mendarat di Kolaka",
+      "Makassar, berbalap ke laut",
+      "Palu, mengejar Westerling",
+      "Manado, akhir perjalanan"
+    ],
+    "Jakarta": [
+      "Jakarta, Indonesia"
+    ]
+  },
+  "weapons_base": {
+    "Bambu Runcing": {
+      "description": "Bambu. Roencing. Soedah djelas?",
+      "type": "MELEE",
+      "noise": 1,
+      "damage_to_human": 999,
+      "damage_to_armor": 1,
+      "range": 2,
+      "hits": [
+        1
+      ],
+      "ammo": 999999999
+    },
+    "Sten Gun": {
+      "description": "Sendjata buatan Britania Raya. Banyak bersoeara dan tdk tepat sasaran, tapi lebih bagus daripada bambu roencing.",
+      "range": 50,
+      "noise": 50,
+      "damage_to_human": 30,
+      "damage_to_armor": 3,
+      "hits": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "ammo": 32,
+      "type": "LMG"
+    },
+    "Arisaka 38": {
+      "description": "Sendjata bekas Nippon. Lambat namun bagoes oentoek menembak sasaran dengan djitu.",
+      "range": 250,
+      "noise": 40,
+      "damage_to_human": 80,
+      "damage_to_armor": 6,
+      "hits": [
+        1
+      ],
+      "ammo": 5,
+      "type": "RIFLE"
+    },
+    "Lee Enfield M1917": {
+      "description": "Sendjata Britania. Miriep Arisaka, namoen sedikit lebih djitu.",
+      "range": 280,
+      "noise": 32,
+      "damage_to_human": 80,
+      "damage_to_armor": 7,
+      "hits": [
+        1
+      ],
+      "ammo": 5,
+      "type": "RIFLE"
+    }
+  }
+}
