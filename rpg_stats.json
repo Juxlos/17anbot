@@ -1,4 +1,24 @@
 {
+  "stages": {
+    "default": {
+      "enemies": {
+        "serdadu KNIL": 1
+      },
+      "proximity_max": 400,
+      "density": 0.1,
+      "defense_modif": 1
+    }
+  },
+  "std_enemies":{
+    "serdadu KNIL":
+    {
+      "HP": 75,
+      "sense": 100,
+      "weapons": {
+        "RIFLE": "Lee Enfield M1917"
+      }
+    }
+  },
   "scenario_names": {
     "Sumatra": [
       "Bukittinggi, garis terakhir bumi Andalas",
@@ -51,7 +71,7 @@
       "hits": [
         1
       ],
-      "ammo": 999999999
+      "ammo": 999999999999
     },
     "Sten Gun": {
       "description": "Sendjata buatan Britania Raya. Banyak bersoeara dan tdk tepat sasaran, tapi lebih bagus daripada bambu roencing.",
@@ -66,7 +86,7 @@
         6
       ],
       "ammo": 32,
-      "type": "LMG"
+      "type": "ASSAULT"
     },
     "Arisaka 38": {
       "description": "Sendjata bekas Nippon. Lambat namun bagoes oentoek menembak sasaran dengan djitu.",
@@ -91,6 +111,19 @@
       ],
       "ammo": 5,
       "type": "RIFLE"
+    },
+    "Nambu Type 14":  {
+      "description": "Pestol Nippon. Goenakan pada djarak dekat sadja.",
+      "range": 60,
+      "noise": 20,
+      "damage_to_human": 45,
+      "damage_to_armor": 2,
+      "hits": [
+        1,
+        2
+      ],
+      "ammo": 7,
+      "type": "PISTOL"
     }
   }
 }

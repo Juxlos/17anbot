@@ -1,2 +1,20 @@
 {
+    "_comment": "This is an example set but if it's a clear user ID, it will probably belong to Juxlos",
+    "example_user_id": {
+        "magazines": {
+            "MELEE": 9999999999999, 
+            "PISTOL": 5
+        }, 
+        "in_battle": false, 
+        "last_patrol": 1512902793.5960746, 
+        "HP": [
+            100, 
+            100
+        ], 
+        "weapons": {
+            "RIFLE": "Arisaka 38", 
+            "MELEE": "Bambu Runcing", 
+            "PISTOL": "Nambu Type 14"
+        }
+    }
 }
